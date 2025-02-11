@@ -14,6 +14,7 @@
         justify-content: center;
         text-align: center;
         padding: 20px;
+        border-bottom: 5px solid black; /* Solid black bottom border */
       }
 
       h2 {
@@ -25,6 +26,11 @@
         text-align: justify;
         width: 50vw;
         margin: 0 auto;
+        transition: outline 0.2s ease-in-out; /* Smooth transition effect */
+      }
+
+      p:hover {
+        outline: 2px double red; /* Red double outline on hover */
       }
 
       .bold-word {
@@ -36,17 +42,4 @@
     <section>
       <h1>Sample Poem</h1>
       <h2>Come to Labs</h2>
-      <p><span class="bold-word">Why</span> won't students come to labs? This is something I always ponder.  
-      After unprepared students write exams, They watch their marks in wonder.</p>
-
-      <p><span class="bold-word">Why</span> won't students come to labs? What is more important than class?  
-      How can you be a student if you don't even try to pass?</p>
-
-      <p><span class="bold-word">Why</span> won't students come to labs? It happens all the time.  
-      If you came to labs, you'd know what to do. But you would rather duck and go lime.</p>
-
-      <p><span class="bold-word">Why</span> won't students come to labs? I see them all now stressing.  
-      If you only learned this basic programming, You would surely now be zessing.</p>
-    </section>
-  </body>
-</html>
+      <p><span class="bold-word">Why</span> won't students come to labs? This is something I
